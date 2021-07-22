@@ -1,5 +1,5 @@
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
+    process.env.MONGODB_URI || 'mongodb://localhost/workout-tracker',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
