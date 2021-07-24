@@ -25,7 +25,7 @@ mongoose.connect(
   
 
   // routes
-app.use(require("./controllers/api-routes.js"));
+app.use('/api',require("./controllers/api-routes.js"));
 
 app.use(require("./controllers/home-routes.js"));
 

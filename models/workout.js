@@ -34,9 +34,8 @@ const workoutSchema = new Schema({
             }
         }
     ]
-
 })
 
 const Workout = mongoose.model("Workout", workoutSchema);
-
+//also create a virtual field 
 module.exports = Workout;
